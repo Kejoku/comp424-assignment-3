@@ -76,15 +76,21 @@ public class SparkDecisionTree implements Serializable {
 		Integer maxBins = 20;
 		final DecisionTreeModel model = DecisionTree.trainClassifier(trainlp, numClasses, categoricalFeaturesInfo, impurity, maxDepth, maxBins);
 
+		JavaPairRDD<Double, Double> train_yHatToY = trainlp.mapToPair(p -> new Tuple2<>(model.predict(p.features()), p.label()));
+		double trainErr = train_yHatToY.filter(pl -> !pl._1().equals(pl._2())).count() / (double) trainlp.count();
+		double train_accuracy = 1 - trainErr;
+
 		JavaPairRDD<Double, Double> yHatToY = testlp.mapToPair(p -> new Tuple2<>(model.predict(p.features()), p.label()));
 		double testErr = yHatToY.filter(pl -> !pl._1().equals(pl._2())).count() / (double) testlp.count();
 		double accuracy = 1 - testErr;
 
 		long duration = (System.nanoTime() - start) / 1000000;  // Milliseconds
 
-		outputString += "Test Accuracy: " + accuracy + "\n";
-		outputString += "Test Error:    " + testErr + "\n";
-		outputString += "Duration:      " + duration + "ms\n";
+		outputString += "Train Accuracy: " + train_accuracy + "\n";
+		outputString += "Train Error:    " + trainErr + "\n";
+		outputString += "Test Accuracy:  " + accuracy + "\n";
+		outputString += "Test Error:     " + testErr + "\n";
+		outputString += "Duration:       " + duration + "ms\n";
 		outputString += "Learned classification tree model:\n" + model.toDebugString() + "\n";
 
 		List<String> outputStrings = new ArrayList<String>();
