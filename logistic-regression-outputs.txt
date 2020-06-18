@@ -1,0 +1,230 @@
+Result Description,Result Value
+Random Seed,1
+Training set record count,33461.0
+Test set record count,14275.0
+Training data NORMAL label count,16171.0
+Training data NORMAL label %,48.32790412719285
+Training data ANOMALY label count,17290.0
+Training data ANOMALY label %,51.67209587280715
+Model coefficients,"(30,[3,9,18,22,23],[-0.005444102149733773,-0.29414013298166986,-0.02952174468396693,-0.001413702760791378,-0.013229774439891795])"
+Model intercept,0.42188747183915676
+Training AUC,0.9192375951366216
+Best model threshold,0.5057737833651279
+Model test Accuracy (AOC) for training data,0.9189236445980982
+Model test Accuracy (AOC) for test data,0.9146119758326151
+CV tuned model parameter 'elasticNet',0.0
+CV tuned model parameter 'fitIntercept',true
+CV tuned model parameter 'maxIter',100
+CV tuned model parameter 'regParam',0.01
+CV tuned model test Accuracy (AOC) for training data,0.9619736403078953
+CV tuned model test Accuracy (AOC) for test data,0.9595151818313359
+Model running time,191998
+
+
+Result Description,Result Value
+Random Seed,10
+Training set record count,33429.0
+Test set record count,14307.0
+Training data NORMAL label count,16187.0
+Training data NORMAL label %,48.42202877740884
+Training data ANOMALY label count,17242.0
+Training data ANOMALY label %,51.57797122259117
+Model coefficients,"(30,[3,9,18,22,23],[-0.006303832313581539,-0.26682071996861717,-0.053199870637633574,-0.0013868582322638942,-0.01887302934445096])"
+Model intercept,0.436382153134269
+Training AUC,0.9141482619111041
+Best model threshold,0.5086814698622032
+Model test Accuracy (AOC) for training data,0.9186209339090585
+Model test Accuracy (AOC) for test data,0.9176476929538233
+CV tuned model parameter 'elasticNet',0.0
+CV tuned model parameter 'fitIntercept',true
+CV tuned model parameter 'maxIter',100
+CV tuned model parameter 'regParam',0.01
+CV tuned model test Accuracy (AOC) for training data,0.9614541386857792
+CV tuned model test Accuracy (AOC) for test data,0.9600615326771126
+Model running time,148349
+
+
+Result Description,Result Value
+Random Seed,2
+Training set record count,33548.0
+Test set record count,14188.0
+Training data NORMAL label count,16299.0
+Training data NORMAL label %,48.584118278287825
+Training data ANOMALY label count,17249.0
+Training data ANOMALY label %,51.415881721712175
+Model coefficients,"(30,[3,9,18,22,23],[-0.005605854626358596,-0.2645634210489971,-0.029165400300673935,-0.0013537607915852174,-0.013822779913105853])"
+Model intercept,0.38623457570371195
+Training AUC,0.9126534261929238
+Best model threshold,0.5042605337466606
+Model test Accuracy (AOC) for training data,0.9165593301288029
+Model test Accuracy (AOC) for test data,0.920297614824043
+CV tuned model parameter 'elasticNet',0.0
+CV tuned model parameter 'fitIntercept',true
+CV tuned model parameter 'maxIter',100
+CV tuned model parameter 'regParam',0.01
+CV tuned model test Accuracy (AOC) for training data,0.961449884172375
+CV tuned model test Accuracy (AOC) for test data,0.9620009704688587
+Model running time,177471
+
+
+Result Description,Result Value
+Random Seed,3
+Training set record count,33461.0
+Test set record count,14275.0
+Training data NORMAL label count,16288.0
+Training data NORMAL label %,48.677564926332145
+Training data ANOMALY label count,17173.0
+Training data ANOMALY label %,51.32243507366785
+Model coefficients,"(30,[3,9,18,22,23],[-0.005271606559854364,-0.27596411939663007,-0.028006887189661846,-0.0012984481762720942,-0.01195797188230695])"
+Model intercept,0.37869633164188427
+Training AUC,0.9123427646536338
+Best model threshold,0.5069500558808248
+Model test Accuracy (AOC) for training data,0.9161976956848592
+Model test Accuracy (AOC) for test data,0.9215247999072833
+CV tuned model parameter 'elasticNet',0.0
+CV tuned model parameter 'fitIntercept',true
+CV tuned model parameter 'maxIter',100
+CV tuned model parameter 'regParam',0.01
+CV tuned model test Accuracy (AOC) for training data,0.9607941794110227
+CV tuned model test Accuracy (AOC) for test data,0.9632798395138271
+Model running time,165486
+
+
+Result Description,Result Value
+Random Seed,4
+Training set record count,33454.0
+Test set record count,14282.0
+Training data NORMAL label count,16238.0
+Training data NORMAL label %,48.53829138518563
+Training data ANOMALY label count,17216.0
+Training data ANOMALY label %,51.46170861481437
+Model coefficients,"(30,[3,9,18,22,23],[-0.01275480375327667,-0.21957902123053855,-0.07050095112978975,-0.0015342116823437559,-0.01426091490778796])"
+Model intercept,0.49690055874080213
+Training AUC,0.9149988577495718
+Best model threshold,0.5087345646015154
+Model test Accuracy (AOC) for training data,0.9181851165270009
+Model test Accuracy (AOC) for test data,0.919216347452358
+CV tuned model parameter 'elasticNet',0.0
+CV tuned model parameter 'fitIntercept',true
+CV tuned model parameter 'maxIter',100
+CV tuned model parameter 'regParam',0.01
+CV tuned model test Accuracy (AOC) for training data,0.9611380108805404
+CV tuned model test Accuracy (AOC) for test data,0.9633423147525659
+Model running time,183509
+
+
+Result Description,Result Value
+Random Seed,5
+Training set record count,33248.0
+Test set record count,14488.0
+Training data NORMAL label count,16072.0
+Training data NORMAL label %,48.33974975938402
+Training data ANOMALY label count,17176.0
+Training data ANOMALY label %,51.66025024061598
+Model coefficients,"(30,[3,9,18,22,23],[-0.004754809499454262,-0.2712636298430738,-0.020344733764381152,-0.0014067551808805317,-0.017706582970400796])"
+Model intercept,0.4078250487951256
+Training AUC,0.9144721156692879
+Best model threshold,0.5080456616384218
+Model test Accuracy (AOC) for training data,0.9164190629533173
+Model test Accuracy (AOC) for test data,0.9165033497803663
+CV tuned model parameter 'elasticNet',0.0
+CV tuned model parameter 'fitIntercept',true
+CV tuned model parameter 'maxIter',100
+CV tuned model parameter 'regParam',0.01
+CV tuned model test Accuracy (AOC) for training data,0.9619311237820876
+CV tuned model test Accuracy (AOC) for test data,0.9622918827405162
+Model running time,204778
+
+
+Result Description,Result Value
+Random Seed,6
+Training set record count,33282.0
+Test set record count,14454.0
+Training data NORMAL label count,16097.0
+Training data NORMAL label %,48.36548284357911
+Training data ANOMALY label count,17185.0
+Training data ANOMALY label %,51.63451715642089
+Model coefficients,"(30,[3,9,18,22,23],[-0.006549017513000327,-0.23596165329045235,-0.04320840930005052,-0.0015546544030185538,-0.03978608924941483])"
+Model intercept,0.4349286852444757
+Training AUC,0.9136491403612184
+Best model threshold,0.5023769146226317
+Model test Accuracy (AOC) for training data,0.9162973350264181
+Model test Accuracy (AOC) for test data,0.9173008572192138
+CV tuned model parameter 'elasticNet',0.0
+CV tuned model parameter 'fitIntercept',true
+CV tuned model parameter 'maxIter',100
+CV tuned model parameter 'regParam',0.01
+CV tuned model test Accuracy (AOC) for training data,0.9606730410878603
+CV tuned model test Accuracy (AOC) for test data,0.9619829329298449
+Model running time,192505
+
+
+Result Description,Result Value
+Random Seed,7
+Training set record count,33494.0
+Test set record count,14242.0
+Training data NORMAL label count,16197.0
+Training data NORMAL label %,48.35791485042097
+Training data ANOMALY label count,17297.0
+Training data ANOMALY label %,51.64208514957903
+Model coefficients,"(30,[3,9,18,22,23],[-0.005160832448584108,-0.2772174836453834,-0.028849789646014676,-0.0014272537815110847,-0.023004166579915556])"
+Model intercept,0.421484764969799
+Training AUC,0.9140052622665041
+Best model threshold,0.5084951217761929
+Model test Accuracy (AOC) for training data,0.9178201479500728
+Model test Accuracy (AOC) for test data,0.9152119428904101
+CV tuned model parameter 'elasticNet',0.0
+CV tuned model parameter 'fitIntercept',true
+CV tuned model parameter 'maxIter',100
+CV tuned model parameter 'regParam',0.01
+CV tuned model test Accuracy (AOC) for training data,0.9608742443219711
+CV tuned model test Accuracy (AOC) for test data,0.9621285468297821
+Model running time,150541
+
+
+Result Description,Result Value
+Random Seed,8
+Training set record count,33486.0
+Test set record count,14250.0
+Training data NORMAL label count,16299.0
+Training data NORMAL label %,48.67407274681957
+Training data ANOMALY label count,17187.0
+Training data ANOMALY label %,51.32592725318044
+Model coefficients,"(30,[3,9,18,22,23],[-0.005932300311026823,-0.2153391126904081,-0.0509206242873887,-0.0016155087210347598,-0.03904558657417577])"
+Model intercept,0.42826239586623854
+Training AUC,0.9134872201698069
+Best model threshold,0.49933623285524115
+Model test Accuracy (AOC) for training data,0.9155927946445519
+Model test Accuracy (AOC) for test data,0.9152013764261027
+CV tuned model parameter 'elasticNet',0.0
+CV tuned model parameter 'fitIntercept',true
+CV tuned model parameter 'maxIter',100
+CV tuned model parameter 'regParam',0.01
+CV tuned model test Accuracy (AOC) for training data,0.9616662281753335
+CV tuned model test Accuracy (AOC) for test data,0.9604437863245352
+Model running time,184233
+
+
+Result Description,Result Value
+Random Seed,9
+Training set record count,33311.0
+Test set record count,14425.0
+Training data NORMAL label count,16210.0
+Training data NORMAL label %,48.66260394464291
+Training data ANOMALY label count,17101.0
+Training data ANOMALY label %,51.33739605535709
+Model coefficients,"(30,[3,9,18,22,23],[-0.005309968994834821,-0.2793486406411494,-0.03784845435826076,-0.0013893003839812311,-0.02123285359914153])"
+Model intercept,0.411517617301449
+Training AUC,0.9140046068787316
+Best model threshold,0.5062390038172642
+Model test Accuracy (AOC) for training data,0.9179904285317854
+Model test Accuracy (AOC) for test data,0.9169263010995872
+CV tuned model parameter 'elasticNet',0.0
+CV tuned model parameter 'fitIntercept',true
+CV tuned model parameter 'maxIter',100
+CV tuned model parameter 'regParam',0.01
+CV tuned model test Accuracy (AOC) for training data,0.9620901761537948
+CV tuned model test Accuracy (AOC) for test data,0.9608325401217405
+Model running time,184398
+
+
