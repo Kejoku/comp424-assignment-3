@@ -42,6 +42,7 @@ public class SparkDecisionTree implements Serializable {
 
 	public void run(String dataFile, String outputDirectory) {
 		// List to store the output strings we want to write to a file
+		String outputString = "";
 		List<String> outputStrings = new ArrayList<String>();
 
 		long start = System.nanoTime();
@@ -82,10 +83,11 @@ public class SparkDecisionTree implements Serializable {
 
 		long duration = (System.nanoTime() - start) / 1000000;  // Milliseconds
 
-		outputStrings.add("Test Accuracy: " + accuracy);
-		outputStrings.add("Test Error:    " + testErr);
-		outputStrings.add("Duration:      " + duration);
-		outputStrings.add("Learned classification tree model:\n" + model.toDebugString());
+		outputString += "Test Accuracy: " + accuracy + "\n";
+		outputString += "Test Error:    " + testErr + "\n";
+		outputString += "Duration:      " + duration + "ms\n";
+		outputString += "Learned classification tree model:\n" + model.toDebugString() + "\n";
+		outputStrings.add(outputString);
 
 		// Output results
 		JavaRDD<String> output = context.parallelize(outputStrings);
