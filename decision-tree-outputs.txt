@@ -1,219 +1,16 @@
-Test Accuracy: 0.9230505687268741
-Test Error:    0.07694943127312594
-Duration:      12356ms
+Train Accuracy: 0.924718932693749
+Train Error:    0.07528106730625093
+Test Accuracy:  0.9214936374382866
+Test Error:     0.07850636256171337
+Duration:       18399ms
 Learned classification tree model:
-DecisionTreeModel classifier of depth 3 with 13 nodes
-  If (feature 4 <= 30.5)
-   If (feature 31 <= 254.5)
-    If (feature 32 <= 218.5)
-     Predict: 0.0
-    Else (feature 32 > 218.5)
-     Predict: 1.0
-   Else (feature 31 > 254.5)
-    Predict: 0.0
-  Else (feature 4 > 30.5)
-   If (feature 39 <= 0.005)
-    If (feature 1 <= 1.5)
-     Predict: 1.0
-    Else (feature 1 > 1.5)
-     Predict: 0.0
-   Else (feature 39 > 0.005)
-    If (feature 36 <= 0.005)
-     Predict: 0.0
-    Else (feature 36 > 0.005)
-     Predict: 1.0
-
-
-Test Accuracy: 0.9230661336699628
-Test Error:    0.07693386633003717
-Duration:      14140ms
-Learned classification tree model:
-DecisionTreeModel classifier of depth 3 with 13 nodes
-  If (feature 4 <= 30.5)
-   If (feature 31 <= 254.5)
-    If (feature 39 <= 0.995)
-     Predict: 0.0
-    Else (feature 39 > 0.995)
-     Predict: 1.0
-   Else (feature 31 > 254.5)
-    Predict: 0.0
-  Else (feature 4 > 30.5)
-   If (feature 39 <= 0.005)
-    If (feature 1 <= 1.5)
-     Predict: 1.0
-    Else (feature 1 > 1.5)
-     Predict: 0.0
-   Else (feature 39 > 0.005)
-    If (feature 36 <= 0.005)
-     Predict: 0.0
-    Else (feature 36 > 0.005)
-     Predict: 1.0
-
-
-Test Accuracy: 0.9326104858632995
-Test Error:    0.06738951413670052
-Duration:      12287ms
-Learned classification tree model:
-DecisionTreeModel classifier of depth 3 with 13 nodes
-  If (feature 4 <= 32.5)
-   If (feature 31 <= 254.5)
-    If (feature 39 <= 0.995)
-     Predict: 0.0
-    Else (feature 39 > 0.995)
-     Predict: 1.0
-   Else (feature 31 > 254.5)
-    Predict: 0.0
-  Else (feature 4 > 32.5)
-   If (feature 5 <= 2.5)
-    If (feature 33 <= 0.745)
-     Predict: 1.0
-    Else (feature 33 > 0.745)
-     Predict: 0.0
-   Else (feature 5 > 2.5)
-    If (feature 9 <= 0.5)
-     Predict: 1.0
-    Else (feature 9 > 0.5)
-     Predict: 0.0
-
-
-Test Accuracy: 0.9246870653685675
-Test Error:    0.07531293463143254
-Duration:      12293ms
-Learned classification tree model:
-DecisionTreeModel classifier of depth 3 with 13 nodes
-  If (feature 4 <= 31.5)
-   If (feature 31 <= 254.5)
-    If (feature 39 <= 0.995)
-     Predict: 0.0
-    Else (feature 39 > 0.995)
-     Predict: 1.0
-   Else (feature 31 > 254.5)
-    Predict: 0.0
-  Else (feature 4 > 31.5)
-   If (feature 39 <= 0.005)
-    If (feature 1 <= 1.5)
-     Predict: 1.0
-    Else (feature 1 > 1.5)
-     Predict: 0.0
-   Else (feature 39 > 0.005)
-    If (feature 36 <= 0.005)
-     Predict: 0.0
-    Else (feature 36 > 0.005)
-     Predict: 1.0
-
-
-Test Accuracy: 0.9262157629960872
-Test Error:    0.0737842370039128
-Duration:      12517ms
-Learned classification tree model:
-DecisionTreeModel classifier of depth 3 with 13 nodes
-  If (feature 4 <= 31.5)
-   If (feature 31 <= 254.5)
-    If (feature 39 <= 0.995)
-     Predict: 0.0
-    Else (feature 39 > 0.995)
-     Predict: 1.0
-   Else (feature 31 > 254.5)
-    Predict: 0.0
-  Else (feature 4 > 31.5)
-   If (feature 39 <= 0.005)
-    If (feature 1 <= 1.5)
-     Predict: 1.0
-    Else (feature 1 > 1.5)
-     Predict: 0.0
-   Else (feature 39 > 0.005)
-    If (feature 36 <= 0.005)
-     Predict: 0.0
-    Else (feature 36 > 0.005)
-     Predict: 1.0
-
-
-Test Accuracy: 0.9247485758492159
-Test Error:    0.07525142415078416
-Duration:      12513ms
-Learned classification tree model:
-DecisionTreeModel classifier of depth 3 with 13 nodes
-  If (feature 4 <= 30.5)
-   If (feature 31 <= 254.5)
-    If (feature 39 <= 0.995)
-     Predict: 0.0
-    Else (feature 39 > 0.995)
-     Predict: 1.0
-   Else (feature 31 > 254.5)
-    Predict: 0.0
-  Else (feature 4 > 30.5)
-   If (feature 39 <= 0.005)
-    If (feature 1 <= 1.5)
-     Predict: 1.0
-    Else (feature 1 > 1.5)
-     Predict: 0.0
-   Else (feature 39 > 0.005)
-    If (feature 36 <= 0.005)
-     Predict: 0.0
-    Else (feature 36 > 0.005)
-     Predict: 1.0
-
-
-Test Accuracy: 0.9216750139120757
-Test Error:    0.07832498608792432
-Duration:      12112ms
-Learned classification tree model:
-DecisionTreeModel classifier of depth 3 with 13 nodes
-  If (feature 4 <= 31.5)
-   If (feature 31 <= 254.5)
-    If (feature 39 <= 0.995)
-     Predict: 0.0
-    Else (feature 39 > 0.995)
-     Predict: 1.0
-   Else (feature 31 > 254.5)
-    Predict: 0.0
-  Else (feature 4 > 31.5)
-   If (feature 39 <= 0.005)
-    If (feature 1 <= 1.5)
-     Predict: 1.0
-    Else (feature 1 > 1.5)
-     Predict: 0.0
-   Else (feature 39 > 0.005)
-    If (feature 36 <= 0.005)
-     Predict: 0.0
-    Else (feature 36 > 0.005)
-     Predict: 1.0
-
-
-Test Accuracy: 0.9227662093460547
-Test Error:    0.07723379065394526
-Duration:      12319ms
-Learned classification tree model:
-DecisionTreeModel classifier of depth 3 with 13 nodes
+DecisionTreeModel classifier of depth 3 with 15 nodes
   If (feature 4 <= 31.5)
    If (feature 35 <= 0.005)
-    Predict: 0.0
-   Else (feature 35 > 0.005)
-    If (feature 32 <= 158.5)
+    If (feature 1 <= 0.5)
      Predict: 0.0
-    Else (feature 32 > 158.5)
+    Else (feature 1 > 0.5)
      Predict: 1.0
-  Else (feature 4 > 31.5)
-   If (feature 39 <= 0.005)
-    If (feature 1 <= 1.5)
-     Predict: 1.0
-    Else (feature 1 > 1.5)
-     Predict: 0.0
-   Else (feature 39 > 0.005)
-    If (feature 36 <= 0.005)
-     Predict: 0.0
-    Else (feature 36 > 0.005)
-     Predict: 1.0
-
-
-Test Accuracy: 0.9228119507908612
-Test Error:    0.07718804920913884
-Duration:      12631ms
-Learned classification tree model:
-DecisionTreeModel classifier of depth 3 with 13 nodes
-  If (feature 4 <= 31.5)
-   If (feature 35 <= 0.005)
-    Predict: 0.0
    Else (feature 35 > 0.005)
     If (feature 32 <= 221.5)
      Predict: 0.0
@@ -232,16 +29,18 @@ DecisionTreeModel classifier of depth 3 with 13 nodes
      Predict: 1.0
 
 
-Test Accuracy: 0.9244759128141052
-Test Error:    0.07552408718589476
-Duration:      12466ms
+Train Accuracy: 0.9237581251118134
+Train Error:    0.07624187488818654
+Test Accuracy:  0.923792083392027
+Test Error:     0.07620791660797295
+Duration:       12213ms
 Learned classification tree model:
 DecisionTreeModel classifier of depth 3 with 13 nodes
   If (feature 4 <= 31.5)
    If (feature 31 <= 254.5)
-    If (feature 32 <= 218.5)
+    If (feature 39 <= 0.995)
      Predict: 0.0
-    Else (feature 32 > 218.5)
+    Else (feature 39 > 0.995)
      Predict: 1.0
    Else (feature 31 > 254.5)
     Predict: 0.0
@@ -258,20 +57,25 @@ DecisionTreeModel classifier of depth 3 with 13 nodes
      Predict: 1.0
 
 
-Test Accuracy: 0.9230505687268741
-Test Error:    0.07694943127312594
-Duration:      12356ms
+Train Accuracy: 0.9243412237606075
+Train Error:    0.07565877623939259
+Test Accuracy:  0.9228323086707653
+Test Error:     0.07716769132923468
+Duration:       14855ms
 Learned classification tree model:
-DecisionTreeModel classifier of depth 3 with 13 nodes
-  If (feature 4 <= 30.5)
-   If (feature 31 <= 254.5)
-    If (feature 32 <= 218.5)
+DecisionTreeModel classifier of depth 3 with 15 nodes
+  If (feature 4 <= 31.5)
+   If (feature 35 <= 0.005)
+    If (feature 1 <= 0.5)
      Predict: 0.0
-    Else (feature 32 > 218.5)
+    Else (feature 1 > 0.5)
      Predict: 1.0
-   Else (feature 31 > 254.5)
-    Predict: 0.0
-  Else (feature 4 > 30.5)
+   Else (feature 35 > 0.005)
+    If (feature 32 <= 217.5)
+     Predict: 0.0
+    Else (feature 32 > 217.5)
+     Predict: 1.0
+  Else (feature 4 > 31.5)
    If (feature 39 <= 0.005)
     If (feature 1 <= 1.5)
      Predict: 1.0
@@ -284,9 +88,67 @@ DecisionTreeModel classifier of depth 3 with 13 nodes
      Predict: 1.0
 
 
-Test Accuracy: 0.9230661336699628
-Test Error:    0.07693386633003717
-Duration:      14140ms
+Train Accuracy: 0.9241992989184169
+Train Error:    0.07580070108158313
+Test Accuracy:  0.9227662093460547
+Test Error:     0.07723379065394526
+Duration:       13237ms
+Learned classification tree model:
+DecisionTreeModel classifier of depth 3 with 13 nodes
+  If (feature 4 <= 31.5)
+   If (feature 31 <= 254.5)
+    If (feature 39 <= 0.995)
+     Predict: 0.0
+    Else (feature 39 > 0.995)
+     Predict: 1.0
+   Else (feature 31 > 254.5)
+    Predict: 0.0
+  Else (feature 4 > 31.5)
+   If (feature 39 <= 0.005)
+    If (feature 1 <= 1.5)
+     Predict: 1.0
+    Else (feature 1 > 1.5)
+     Predict: 0.0
+   Else (feature 39 > 0.005)
+    If (feature 36 <= 0.005)
+     Predict: 0.0
+    Else (feature 36 > 0.005)
+     Predict: 1.0
+
+
+Train Accuracy: 0.9241677862367518
+Train Error:    0.07583221376324825
+Test Accuracy:  0.9228284530580717
+Test Error:     0.07717154694192824
+Duration:       12765ms
+Learned classification tree model:
+DecisionTreeModel classifier of depth 3 with 13 nodes
+  If (feature 4 <= 31.5)
+   If (feature 31 <= 254.5)
+    If (feature 39 <= 0.995)
+     Predict: 0.0
+    Else (feature 39 > 0.995)
+     Predict: 1.0
+   Else (feature 31 > 254.5)
+    Predict: 0.0
+  Else (feature 4 > 31.5)
+   If (feature 39 <= 0.005)
+    If (feature 1 <= 1.5)
+     Predict: 1.0
+    Else (feature 1 > 1.5)
+     Predict: 0.0
+   Else (feature 39 > 0.005)
+    If (feature 36 <= 0.005)
+     Predict: 0.0
+    Else (feature 36 > 0.005)
+     Predict: 1.0
+
+
+Train Accuracy: 0.9250164700245553
+Train Error:    0.07498352997544469
+Test Accuracy:  0.9212801561846325
+Test Error:     0.07871984381536745
+Duration:       12810ms
 Learned classification tree model:
 DecisionTreeModel classifier of depth 3 with 13 nodes
   If (feature 4 <= 30.5)
@@ -310,170 +172,78 @@ DecisionTreeModel classifier of depth 3 with 13 nodes
      Predict: 1.0
 
 
-Test Accuracy: 0.9326104858632995
-Test Error:    0.06738951413670052
-Duration:      12287ms
+Train Accuracy: 0.9311190170109719
+Train Error:    0.06888098298902808
+Test Accuracy:  0.9293063624273815
+Test Error:     0.07069363757261847
+Duration:       12675ms
 Learned classification tree model:
-DecisionTreeModel classifier of depth 3 with 13 nodes
+DecisionTreeModel classifier of depth 3 with 15 nodes
   If (feature 4 <= 32.5)
-   If (feature 31 <= 254.5)
-    If (feature 39 <= 0.995)
+   If (feature 35 <= 0.005)
+    If (feature 1 <= 0.5)
      Predict: 0.0
-    Else (feature 39 > 0.995)
+    Else (feature 1 > 0.5)
      Predict: 1.0
-   Else (feature 31 > 254.5)
-    Predict: 0.0
+   Else (feature 35 > 0.005)
+    If (feature 32 <= 219.5)
+     Predict: 0.0
+    Else (feature 32 > 219.5)
+     Predict: 1.0
   Else (feature 4 > 32.5)
-   If (feature 5 <= 2.5)
-    If (feature 33 <= 0.745)
+   If (feature 5 <= 2.0)
+    If (feature 33 <= 0.765)
      Predict: 1.0
-    Else (feature 33 > 0.745)
+    Else (feature 33 > 0.765)
      Predict: 0.0
-   Else (feature 5 > 2.5)
+   Else (feature 5 > 2.0)
     If (feature 9 <= 0.5)
      Predict: 1.0
     Else (feature 9 > 0.5)
      Predict: 0.0
 
 
-Test Accuracy: 0.9246870653685675
-Test Error:    0.07531293463143254
-Duration:      12293ms
+Train Accuracy: 0.9314314916130584
+Train Error:    0.06856850838694162
+Test Accuracy:  0.927505183137526
+Test Error:     0.07249481686247408
+Duration:       12226ms
 Learned classification tree model:
 DecisionTreeModel classifier of depth 3 with 13 nodes
-  If (feature 4 <= 31.5)
-   If (feature 31 <= 254.5)
-    If (feature 39 <= 0.995)
-     Predict: 0.0
-    Else (feature 39 > 0.995)
-     Predict: 1.0
-   Else (feature 31 > 254.5)
-    Predict: 0.0
-  Else (feature 4 > 31.5)
-   If (feature 39 <= 0.005)
-    If (feature 1 <= 1.5)
-     Predict: 1.0
-    Else (feature 1 > 1.5)
-     Predict: 0.0
-   Else (feature 39 > 0.005)
-    If (feature 36 <= 0.005)
-     Predict: 0.0
-    Else (feature 36 > 0.005)
-     Predict: 1.0
-
-
-Test Accuracy: 0.9262157629960872
-Test Error:    0.0737842370039128
-Duration:      12517ms
-Learned classification tree model:
-DecisionTreeModel classifier of depth 3 with 13 nodes
-  If (feature 4 <= 31.5)
-   If (feature 31 <= 254.5)
-    If (feature 39 <= 0.995)
-     Predict: 0.0
-    Else (feature 39 > 0.995)
-     Predict: 1.0
-   Else (feature 31 > 254.5)
-    Predict: 0.0
-  Else (feature 4 > 31.5)
-   If (feature 39 <= 0.005)
-    If (feature 1 <= 1.5)
-     Predict: 1.0
-    Else (feature 1 > 1.5)
-     Predict: 0.0
-   Else (feature 39 > 0.005)
-    If (feature 36 <= 0.005)
-     Predict: 0.0
-    Else (feature 36 > 0.005)
-     Predict: 1.0
-
-
-Test Accuracy: 0.9247485758492159
-Test Error:    0.07525142415078416
-Duration:      12513ms
-Learned classification tree model:
-DecisionTreeModel classifier of depth 3 with 13 nodes
-  If (feature 4 <= 30.5)
-   If (feature 31 <= 254.5)
-    If (feature 39 <= 0.995)
-     Predict: 0.0
-    Else (feature 39 > 0.995)
-     Predict: 1.0
-   Else (feature 31 > 254.5)
-    Predict: 0.0
-  Else (feature 4 > 30.5)
-   If (feature 39 <= 0.005)
-    If (feature 1 <= 1.5)
-     Predict: 1.0
-    Else (feature 1 > 1.5)
-     Predict: 0.0
-   Else (feature 39 > 0.005)
-    If (feature 36 <= 0.005)
-     Predict: 0.0
-    Else (feature 36 > 0.005)
-     Predict: 1.0
-
-
-Test Accuracy: 0.9216750139120757
-Test Error:    0.07832498608792432
-Duration:      12112ms
-Learned classification tree model:
-DecisionTreeModel classifier of depth 3 with 13 nodes
-  If (feature 4 <= 31.5)
-   If (feature 31 <= 254.5)
-    If (feature 39 <= 0.995)
-     Predict: 0.0
-    Else (feature 39 > 0.995)
-     Predict: 1.0
-   Else (feature 31 > 254.5)
-    Predict: 0.0
-  Else (feature 4 > 31.5)
-   If (feature 39 <= 0.005)
-    If (feature 1 <= 1.5)
-     Predict: 1.0
-    Else (feature 1 > 1.5)
-     Predict: 0.0
-   Else (feature 39 > 0.005)
-    If (feature 36 <= 0.005)
-     Predict: 0.0
-    Else (feature 36 > 0.005)
-     Predict: 1.0
-
-
-Test Accuracy: 0.9227662093460547
-Test Error:    0.07723379065394526
-Duration:      12319ms
-Learned classification tree model:
-DecisionTreeModel classifier of depth 3 with 13 nodes
-  If (feature 4 <= 31.5)
+  If (feature 4 <= 32.5)
    If (feature 35 <= 0.005)
     Predict: 0.0
    Else (feature 35 > 0.005)
-    If (feature 32 <= 158.5)
+    If (feature 32 <= 226.5)
      Predict: 0.0
-    Else (feature 32 > 158.5)
+    Else (feature 32 > 226.5)
      Predict: 1.0
-  Else (feature 4 > 31.5)
-   If (feature 39 <= 0.005)
-    If (feature 1 <= 1.5)
+  Else (feature 4 > 32.5)
+   If (feature 5 <= 2.0)
+    If (feature 33 <= 0.775)
      Predict: 1.0
-    Else (feature 1 > 1.5)
+    Else (feature 33 > 0.775)
      Predict: 0.0
-   Else (feature 39 > 0.005)
-    If (feature 36 <= 0.005)
-     Predict: 0.0
-    Else (feature 36 > 0.005)
+   Else (feature 5 > 2.0)
+    If (feature 9 <= 0.5)
      Predict: 1.0
+    Else (feature 9 > 0.5)
+     Predict: 0.0
 
 
-Test Accuracy: 0.9228119507908612
-Test Error:    0.07718804920913884
-Duration:      12631ms
+Train Accuracy: 0.9240161604070029
+Train Error:    0.07598383959299716
+Test Accuracy:  0.9231198938621604
+Test Error:     0.07688010613783954
+Duration:       12728ms
 Learned classification tree model:
-DecisionTreeModel classifier of depth 3 with 13 nodes
+DecisionTreeModel classifier of depth 3 with 15 nodes
   If (feature 4 <= 31.5)
    If (feature 35 <= 0.005)
-    Predict: 0.0
+    If (feature 1 <= 0.5)
+     Predict: 0.0
+    Else (feature 1 > 0.5)
+     Predict: 1.0
    Else (feature 35 > 0.005)
     If (feature 32 <= 221.5)
      Predict: 0.0
@@ -492,20 +262,25 @@ DecisionTreeModel classifier of depth 3 with 13 nodes
      Predict: 1.0
 
 
-Test Accuracy: 0.9244759128141052
-Test Error:    0.07552408718589476
-Duration:      12466ms
+Train Accuracy: 0.9246371585684666
+Train Error:    0.0753628414315334
+Test Accuracy:  0.9220446842360103
+Test Error:     0.07795531576398976
+Duration:       12641ms
 Learned classification tree model:
-DecisionTreeModel classifier of depth 3 with 13 nodes
-  If (feature 4 <= 31.5)
-   If (feature 31 <= 254.5)
-    If (feature 32 <= 218.5)
+DecisionTreeModel classifier of depth 3 with 15 nodes
+  If (feature 4 <= 30.5)
+   If (feature 35 <= 0.005)
+    If (feature 1 <= 0.5)
      Predict: 0.0
-    Else (feature 32 > 218.5)
+    Else (feature 1 > 0.5)
      Predict: 1.0
-   Else (feature 31 > 254.5)
-    Predict: 0.0
-  Else (feature 4 > 31.5)
+   Else (feature 35 > 0.005)
+    If (feature 32 <= 222.5)
+     Predict: 0.0
+    Else (feature 32 > 222.5)
+     Predict: 1.0
+  Else (feature 4 > 30.5)
    If (feature 39 <= 0.005)
     If (feature 1 <= 1.5)
      Predict: 1.0
