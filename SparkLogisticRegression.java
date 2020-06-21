@@ -224,8 +224,8 @@ public class SparkLogisticRegression {
         double cvModelAccuracyTrain = lrEvaluator.evaluate(cvModelPredictionsTrain);
         double cvModelAccuracyTest = lrEvaluator.evaluate(cvModelPredictionsTest);
 
-        lrModelResults.add(RowFactory.create("CV tuned model test Error (AOC) for training data", Double.toString(cvModelAccuracyTrain)));
-        lrModelResults.add(RowFactory.create("CV tuned model test Error (AOC) for test data", Double.toString(cvModelAccuracyTest)));
+        lrModelResults.add(RowFactory.create("CV tuned model test accuracy (AOC) for training data", Double.toString(cvModelAccuracyTrain)));
+        lrModelResults.add(RowFactory.create("CV tuned model test accuracy (AOC) for test data", Double.toString(cvModelAccuracyTest)));
 
         long endTime = System.nanoTime();
         long duration = (endTime - startTime) / 1000000;  // Milliseconds
