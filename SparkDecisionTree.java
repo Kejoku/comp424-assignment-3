@@ -20,6 +20,7 @@ import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.ml.feature.StringIndexer;
 import org.apache.spark.mllib.linalg.DenseVector;
 import org.apache.spark.mllib.linalg.Vector;
+import org.apache.spark.ml.feature.StandardScaler;
 
 import static org.apache.spark.sql.functions.*;
 
@@ -60,7 +61,6 @@ public class SparkDecisionTree implements Serializable {
 			.transform(kddData)
 			.drop("_c41");
 
-
 		// Split data 70% and 30%
 		Dataset<Row>[] split = indexed.randomSplit(new double[] {0.7, 0.3});
 		JavaRDD<Row> train = split[0].toJavaRDD();
@@ -72,8 +72,8 @@ public class SparkDecisionTree implements Serializable {
 		// Generate Model
 		Map<Integer, Integer> categoricalFeaturesInfo = new HashMap<>();
 		String impurity = "gini";
-		Integer maxDepth = 3;
-		Integer maxBins = 20;
+		Integer maxDepth = 10;
+		Integer maxBins = 32;
 		final DecisionTreeModel model = DecisionTree.trainClassifier(trainlp, numClasses, categoricalFeaturesInfo, impurity, maxDepth, maxBins);
 
 		JavaPairRDD<Double, Double> train_yHatToY = trainlp.mapToPair(p -> new Tuple2<>(model.predict(p.features()), p.label()));
